@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles personnalisés pour les formulaires */
+.form-container {
+    background: linear-gradient(135deg, #e0e7ff, #fff);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+.form-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #4f46e5; /* Indigo */
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.input-field {
+    border: 1px solid #d1d5db; /* Gray-300 */
+    border-radius: 8px;
+    padding: 0.75rem;
+    width: 100%;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.input-field:focus {
+    border-color: #6366f1; /* Indigo-500 */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+}
+
+.error-message {
+    color: #ef4444; /* Red-500 */
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+.button-primary {
+    background-color: #4f46e5; /* Indigo */
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button-primary:hover {
+    background-color: #4338ca; /* Indigo-700 */
+}
+
+.link {
+    color: #4f46e5; /* Indigo */
+    font-size: 0.875rem;
+    text-decoration: underline;
+    transition: color 0.2s ease-in-out;
+}
+
+.link:hover {
+    color: #4338ca; /* Indigo-700 */
+}
+
