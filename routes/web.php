@@ -26,6 +26,23 @@ Route::get('contact', function () {
     return view('contact');
 });
 
+Route::get('accueil', function () {
+    return view('accueil');
+});
+
+Route::get('achat', function () {
+    return view('achat');
+});
+
+
+Route::get('louer', function () {
+    return view('louer');
+});
+
+Route::get('vente', function () {
+    return view('vente');
+});
+
 Route::get('propos', function () {
     return view('propos');
 });

@@ -1,8 +1,11 @@
 <?php
+
 namespace App\Models;
+
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-class Locataire extends Model
+
+class Location extends Model
 {
     use HasFactory;
     protected $fillable = [
@@ -25,4 +28,3 @@ class Locataire extends Model
         return $this->belongsTo(User::class, 'client_id');
     }
 }
-

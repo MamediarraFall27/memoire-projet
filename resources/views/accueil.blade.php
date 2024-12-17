@@ -75,20 +75,13 @@
 
                                 <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="accueil">Accueil</a>
-                                        </li>
-                                        <li class=" dropdown"><a href="propos">À propos</a>
-                                        </li>
-                                        <li class="dropdown"><a href="locations">Louer</a>
-                                        </li>
-                                        <li class="dropdown"><a href="vendre">Vente</a>
-                                        </li>
+                                        <li class="current dropdown"><a href="accueil">Accueil</a></li>
+                                        <li class=" dropdown"><a href="propos">À propos</a> </li>
+                                        <li class="dropdown"><a href="locations">Louer</a>  </li>
+                                        <li class="dropdown"><a href="vendre">Vente</a></li>
                                         <li><a href="contact">Contact</a></li>
-                                        </li>
-                                        <li class="dropdown"><a href="login">Connexion</a>
-                                        </li>
-                                        <li class="dropdown"><a href="register">Inscription</a>
-
+                                        <li class="dropdown"><a href="login">Connexion</a></li>
+                                        <li class="dropdown"><a href="register">Inscription</a></li>
                                     </ul>
                                 </div>
                             </nav>
