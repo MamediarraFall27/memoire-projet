@@ -23,10 +23,28 @@
             </header>
         @endif
 
+<<<<<<< HEAD
         <!-- Page Content -->
         <main>
             @yield('content')
         </main>
     </div>
 </body>
+=======
+            <!-- Page Heading -->
+            @if (isset($header))
+                <header class="bg-white shadow">
+                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                        {{ $header }}
+                    </div>
+                </header>
+            @endif
+
+            <!-- Page Content -->
+            <main>
+                @yield('content')  <!-- Utilisation de la section 'content' -->
+            </main>
+        </div>
+    </body>
+>>>>>>> 7ff325edcb3a4a0f79f65fd0a5b041b186f36252
 </html>

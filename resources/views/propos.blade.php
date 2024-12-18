@@ -74,13 +74,14 @@
 
                                 <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="dropdown"><a href="index-2.html">Accueil</a></li>
-                                        <li class="current dropdown"><a href="about.html">À propos </a></li>
-                                        <li class="dropdown"><a href="services-dark.html">Louer</a> </li>
-                                        <li class="dropdown"><a href="projects-classic.html">Vendre</a> </li>
-                                        <li class="dropdown"><a href="blog.html">Contact</a></li>
-                                        <li class="dropdown"><a href="shop.html">Connexion</a> </li>
-                                        <li><a href="contact.html">Inscription</a></li>
+                                        <li class="current dropdown"><a href="accueil">Accueil</a></li>
+                                        <li class=" dropdown"><a href="propos">À propos</a> </li>
+                                        <li class="dropdown"><a href="locations">Louer</a>  </li>
+                                        <li class="dropdown"><a href="vendre">Vente</a></li>
+                                        <li><a href="contact">Contact</a></li>
+                                        <li class="dropdown"><a href="login">Connexion</a></li>
+                                        <li class="dropdown"><a href="register">Inscription</a></li>
+
                                     </ul>
                                 </div>
                             </nav>
